@@ -1,0 +1,185 @@
+{
+	"Ident":"JAS",
+	"Animations":[
+		{
+			"Name": "idle",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 0
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 32,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"Name": "walk",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 32
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 32,
+					"Y": 32
+				}
+			]
+		},
+		{
+			"Name": "shoot",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 64
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 32,
+					"Y": 64
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 64,
+					"Y": 64
+				}
+			]
+		},
+		{
+			"Name": "crouch",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 96
+				}
+			]
+		},
+		{
+			"Name": "shoot-up",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 128
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 32,
+					"Y": 128
+				}
+			]
+		},
+		{
+			"Name": "jump",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 160
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 32,
+					"Y": 160
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 64,
+					"Y": 160
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 96,
+					"Y": 160
+				},
+				{
+					"Width":32,
+					"Height": 32,
+					"X": 128,
+					"Y": 160
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 160,
+					"Y": 160
+				}
+			]
+		},
+		{
+			"Name": "die",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 192
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 32,
+					"Y": 192
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 64,
+					"Y": 192
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 96,
+					"Y": 192
+				}
+			]
+		},
+		{
+			"Name": "cheer",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 224
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 32,
+					"Y": 224
+				}
+			]
+		}
+	]
+}

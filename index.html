@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/core.css" />
+  <link rel="stylesheet" type="text/css" href="styles/game.css" />
+  <link rel="stylesheet" type="text/css" href="templates/checker/styles.css" />
+  <link rel="stylesheet" type="text/css" href="templates/tcg/styles.css" />
+  <link rel="stylesheet" type="text/css" href="templates/rpg/styles.css" />
+  <link rel="stylesheet" type="text/css" href="templates/triple-triad/styles.css" />
+  <link rel="stylesheet" type="text/css" href="templates/fight/styles.css" />
+  
+  <title>SWGPU Playground</title>
+  <link rel="icon" href="textures/favicon.ico">
+  <link rel="icon" type="image/jpeg" href="textures/favicon.png" />
+  <style>
+    h1 {
+      margin-bottom:10px;
+    }
+    center {
+      margin-bottom:10px;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-5b106c0e.js"></script>
+</head>
+
+<body>
+  <div id="BRAND">
+    <div id="BRAND_TITLE">SWGPU</div>
+    <div id="BRAND_METRICS">
+      <span>Version: <b>1.6.3</b></span>
+      <br/>
+      <span>FPS: <b id="fps"></b>
+      <br/>
+      <span>3D Renderer Time: <b id="rt"></b>
+      <br/>
+      <span>Licence: <b>MIT</b></span>
+    </div>  
+  </div>
+  <div id="APP" style="margin: 0 auto">
+    <div id="APP_FAIL"></div>
+    <canvas id="CANVAS_3D" width="1px" height="1px"></canvas>
+    <canvas id="CANVAS_2D" width="1px" height="1px"></canvas>
+    <div id="UI_ROOT"></div>
+    <div id="UI_FADELAYER"></div>
+    <div id="UI_OVERLAYER"></div>
+  </div>
+</body>
+
+</html>

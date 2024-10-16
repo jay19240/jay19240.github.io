@@ -1,0 +1,29 @@
+{
+	"Ident": "JAS",
+	"Animations": [
+		{
+			"Name": "walk",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 0,
+					"Y": 0
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 32,
+					"Y": 0
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 64,
+					"Y": 0
+				}
+			]
+		}
+	]
+}

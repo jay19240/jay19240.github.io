@@ -1,0 +1,23 @@
+{
+	"Ident":"JAS",
+	"Animations":[
+		{
+			"Name": "shoot",
+			"FrameDuration": 100,
+			"Frames": [
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 96,
+					"Y": 64
+				},
+				{
+					"Width": 32,
+					"Height": 32,
+					"X": 128,
+					"Y": 64
+				}
+			]
+		}
+	]
+}
